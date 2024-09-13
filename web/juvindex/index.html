@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!-- <html class="no-js" lang="en"> -->
+<html lang="en" data-theme="light">
+  <head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="scaffolded-by" content="https://github.com/dart-lang/sdk" />
+<link rel="icon" type="image/png" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/styles/styles.css" />
+
+<meta property="og:title" content="DYSTLA | dystla.com">
+<meta property="og:description" content="Juventutem is an international Catholic movement for the sanctification of young people through the Roman traditions of the Church.">
+<meta property="og:image" content="https://www.juventutem.org/images/logo.png">
+<meta property="og:url" content="https://www.juventutem.org/">
+<script defer src="/main.dart.js"></script>
+<link
+  rel="stylesheet"
+  href="https://bulma.io/vendor/fontawesome-free-6.5.2-web/css/all.min.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+/>    <title>Fœderatio Internationalis Juventutem | juventutem.org</title>
+    <meta
+      name="description"
+      content="Juventutem is an international Catholic movement for the sanctification of young people through the Roman traditions of the Church."
+    />
+  </head>
+
+  <body
+    class="has-background-white"
+    data-function="fetch(blogEvents, events, -fields.eventDate, 4)"
+  >
+<nav
+  class="navbar is-fixed-top"
+  role="navigation"
+  aria-label="main navigation"
+  style="z-index: 5"
+>
+  <div class="navbar-brand">
+    <a class="navbar-item" style="height: 70px" href="/">
+      <img
+        src="/images/logo.png"
+        width="50px"
+        height="60px"
+        style="max-height: unset"
+      />
+      <span class="title is-5 ml-2 has-text-primary">Juventutem</span>
+    </a>
+
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/about/"> About </a>
+        <div class="navbar-dropdown">
+          <!-- <hr class="navbar-divider" /> -->
+          <a class="navbar-item" href="/about/"> About Juventutem </a>
+          <a class="navbar-item" href="/commitments/"> The Commitments </a>
+          <a class="navbar-item" href="/approvals/"> The Approvals </a>
+        </div>
+      </div>
+
+      <a class="navbar-item" href="/chapters/"> Chapters </a>
+      <a class="navbar-item" href="/affiliate/"> Affiliate </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/books/"> Resources </a>
+        <div class="navbar-dropdown">
+          <!-- <hr class="navbar-divider" /> -->
+          <a
+            class="navbar-item"
+            href="https://assets.ctfassets.net/8e6y7fam3t8b/tKr4IVC8jJzqXvSlg5cRZ/a7c602e07b55d98a2985d7a69be40b20/2008-02-19-Charte-EN.-revised.pdf"
+          >
+            Charter
+          </a>
+          <a class="navbar-item" href="/books/"> Books </a>
+          <!-- TODO -->
+          <a class="navbar-item" href="/videos/"> Videos </a>
+          <a class="navbar-item" href="/wyd/"> WYD Reports </a>
+        </div>
+      </div>
+    </div>
+    <style>
+      #facebook:hover {
+        color: #476bfc !important;
+      }
+      #instagram:hover {
+        color: #9f1184 !important;
+      }
+      #twitter-x:hover {
+        color: #000000 !important;
+      }
+    </style>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div
+          class="is-flex is-flex-direction-row is-justify-content-flex-start"
+        >
+          <!--  -->
+          <a
+            title="Follow on X"
+            href="https://x.com/FIJuventutem?t=MFXkDYXfOWohaRfGes-seA&s=09"
+            class="m-1"
+          >
+            <i id="twitter-x" class="fa-brands fa-x-twitter has-text-primary title is-3"></i>
+          </a>
+          <!--  -->
+          <a
+            title="Follow on Instagram"
+            href="https://www.instagram.com/fijuventutem?igsh=MXM0cWRtenc2NzZn"
+            class="m-1"
+          >
+            <i id="instagram" class="fa-brands fa-instagram has-text-primary title is-3"></i>
+          </a>
+          <!--  -->
+
+          <a
+            title="Follow on Facebook"
+            href="https://www.facebook.com/fijuventutem"
+            class="m-1"
+          >
+            <i id="facebook" class="fa-brands fa-facebook has-text-primary title is-3"></i>
+          </a>
+          <!--  -->
+          <!-- <a
+            title="Follow on Youtube"
+            href="https://www.youtube.com/channel/UCAx7fXOY34ZzYuY_tTrhLnA"
+            class="m-2"
+          >
+            <i class="fa-brands fa-youtube has-text-primary title is-4"></i>
+          </a> -->
+        </div>
+      </div>
+      <div class="navbar-item">
+        <a class="button is-info" href="/contact/">
+          <strong>Contact</strong>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Social card -->
+<section
+  class="has-background-light is-fullwidth p-2"
+  style="height: 70px"
+></section>    <section
+      class="has-background-white is-flex is-flex-direction-column is-align-items-center is-justify-content-center"
+    >
+      <img
+        class="p-5"
+        src="images/logo_no_words.svg"
+        alt="Juventutem Logo SVG"
+        object-fit=""
+        style="
+          height: 50vh;
+          max-height: 500px;
+          width: auto;
+          margin: 0;
+          padding: 0;
+        "
+      />
+      <div
+        class="has-text-centered has-background-white pb-6 is-flex is-flex-direction-column is-align-items-center is-justify-content-center"
+      >
+        <h1 class="title is-1 has-text-primary">
+          Fœderatio Internationalis Juventutem
+        </h1>
+        <p class="title is-6 has-text-primary-dark">
+          "And I will go to the altar of God, to God who gives joy to my
+          youth..." - Psalm 43
+        </p>
+      </div>
+    </section>
+    <!-- class="has-background-info" -->
+    <section
+      
+      style="
+        background-image: url('images/line.svg');
+        background-position: center;
+        background-repeat: repeat;
+      "
+    >
+      <div class="columns pt-5 pb-5 is-desktop">
+        <a class="column pl-6 pr-6" href="#posts">
+          <div class="card" data-function="onHover(has-background-info-light)">
+            <div class="card-content">
+              <div
+                class="is-flex is-justify-content-space-between is-align-items-center"
+              >
+                <div class="content m-0">
+                  <p class="title is-4">View Posts</p>
+                </div>
+                <span class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="column pl-6 pr-6" href="/chapters/">
+          <div class="card" data-function="onHover(has-background-info-light)">
+            <div class="card-content">
+              <div
+                class="is-flex is-justify-content-space-between is-align-items-center"
+              >
+                <div class="content m-0">
+                  <p class="title is-4">Find a Chapter</p>
+                </div>
+                <span class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="column pl-6 pr-6" href="/contact/">
+          <div class="card" data-function="onHover(has-background-info-light)">
+            <div class="card-content">
+              <div
+                class="is-flex is-justify-content-space-between is-align-items-center"
+              >
+                <div class="content m-0">
+                  <p class="title is-4">Contact Us</p>
+                </div>
+                <span class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- WHO WE ARE SECTION -->
+    <section class="pl-3 pr-3 pb-6 pt-6">
+      <div class="columns">
+        <div
+          class="column is-offset-0-mobile is-12-mobile is-offset-1-tablet is-10-tablet is-offset-2-fullhd is-8-fullhd"
+        >
+          <div class="card" style="overflow: hidden;">
+            <div class="columns is-desktop">
+              <div class="column is-5-desktop p-0">
+                <div
+                  style="display: block; width: 100%; height: 100%"
+                  class="image"
+                  data-function="getAsset(6pNUkznq5tmKzWs9pJRWRJ, cover)"
+                ></div>
+              </div>
+              <div class="column is-7-desktop p-6">
+                <h2 class="title is-2 is-flex is-justify-content-flex-start">
+                  Who We Are
+                </h2>
+                <div
+                  class="dart-function-blinder"
+                  data-function="get(customHtml, id:3yoWMcm9dbM1bPSVjJqvBE)"
+                >
+                  <p>*|html|*</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- YEARS SECTION -->
+    <section
+      class="has-background-grey-light p-4 is-flex is-justify-content-center"
+      style="
+        background-image: url('images/banner2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      "
+    >
+      <div
+        class="card p-5 mt-6 mb-6 is-flex is-justify-content-center is-flex-direction-column is-align-items-center"
+      >
+        <p class="mt-4 title is-3 has-text-centered">
+          Fœderatio Internationalis Juventutem<br /><span class="title is-5"
+            >Fostering tradition for the young since 2004</span
+          >
+        </p>
+        <p
+          id="yearGoing"
+          class="mt-4 title is-2 has-text-primary has-text-centered"
+        ></p>
+        <script>
+          const foundationDate = new Date("2004-05-24");
+          var diff = Date.now() - foundationDate;
+          var ageDate = new Date(diff); // miliseconds from epoch
+          document.getElementById("yearGoing").innerHTML =
+            Math.abs(ageDate.getUTCFullYear() - 1970).toString() + "&nbspYEARS";
+        </script>
+      </div>
+    </section>
+    <section class="p-4 pb-6 has-background-grey-light">
+      <!-- START ARTICLE FEED -->
+      <h2 id="posts" class="title is-2 is-flex is-justify-content-center m-6">
+        Latest Posts
+      </h2>
+      <section class="articles columns">
+        <div
+          class="column is-0-mobile is-0-tablet is-1-desktop is-2-widescreen"
+        ></div>
+        <div
+          class="column is-12-mobile is-8-tablet is-7-desktop is-7-widescreen"
+          style="overflow-x: hidden"
+        >
+          <!-- START ARTICLE -->
+          <div
+            class="card article dart-function-blinder"
+            data-function="fetchFor(blogEvents)"
+          >
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content has-text-centered">
+                  <p class="title article-title">*|title|*</p>
+                  <div class="tags has-addons level-item">
+                    <span class="tag is-rounded is-info">@*|author|*</span>
+                    <span class="tag">*|eventDate|*</span>
+                  </div>
+                </div>
+              </div>
+              <div class="content article-body">
+                <!-- <p class="has-text-centered"></p> -->
+                *|content|*
+              </div>
+            </div>
+          </div>
+          <!-- END ARTICLE -->
+        </div>
+        <!--  -->
+<div class="column is-4-tablet is-3-widescreen">
+  <nav class="panel has-background-white">
+    <p class="panel-heading">Postings</p>
+    <!-- <div class="panel-block">
+      <p class="control has-icons-left">
+        <input class="input" type="text" placeholder="Search" />
+        <span class="icon is-left">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </span>
+      </p>
+    </div> -->
+    <!-- <p class="panel-tabs">
+      <a class="is-active">Events</a>
+      <a>News</a>
+    </p> -->
+    <!-- <a class="panel-block is-active" data-function="fetchFor(blogEvents)"> -->
+    <div>
+      <a
+        class="panel-block dart-function-blinder"
+        data-function="fetchFor(blogEvents)"
+        href="/post/?post=*|id|*"
+      >
+        *|title|*
+      </a>
+    </div>
+
+    <div class="panel-block">
+      <a class="button is-link is-outlined is-fullwidth" href="/posts/">
+        View all posts
+      </a>
+    </div>
+  </nav>
+  <!-- Sidebar -->
+</div>      </section>
+      <!-- END ARTICLE FEED -->
+      <!-- Pagination -->
+      <nav
+        class="pagination is-centered"
+        role="navigation"
+        aria-label="pagination"
+      >
+        <ul class="pagination-list">
+          <li
+            class="dart-function-blinder"
+            data-function="fetchPaginationPrev(blogEvents)"
+          >
+            <a
+              href="./?page=*|payload|*"
+              class="pagination-link"
+              aria-label="Goto page *|payload|*"
+              >*|payload|*</a
+            >
+          </li>
+          <li
+            class="dart-function-blinder"
+            data-function="fetchPaginationCurrent(blogEvents)"
+          >
+            <a
+              href="#"
+              class="pagination-link is-current"
+              aria-label="Goto page *|payload|*"
+              >*|payload|*</a
+            >
+          </li>
+          <li
+            class="dart-function-blinder"
+            data-function="fetchPaginationNext(blogEvents)"
+          >
+            <a
+              href="./?page=*|payload|*"
+              class="pagination-link"
+              aria-label="Goto page *|payload|*"
+              >*|payload|*</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- End Pagination -->
+    </section>
+<footer class="footer has-background-grey">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-narrow">
+        <figure class="image is-64x64">
+          <img src="/images/logo.png" alt="Company Logo" />
+        </figure>
+      </div>
+      <div class="column">
+        <p class="has-text-primary">
+          <strong class="has-text-white">DYSTLA</strong> - © 2024 All Rights Reserved.
+          <br />
+          dystla.com
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>    <!-- <script async type="text/javascript" src="../js/bulma.js"></script> -->
+  </body>
+</html>

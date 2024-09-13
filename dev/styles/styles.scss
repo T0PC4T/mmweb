@@ -1,0 +1,86 @@
+// Set your brand colors
+$clay: #c27d46;
+$fsspgold: #eab411;
+$fsspyellow: #f6e222;
+$mygrey: rgb(27, 29, 28);
+
+// Override global Sass variables from the /utilities folder
+@use "bulma/sass/utilities" with (
+  $family-primary: 'Inter, sans-serif',
+  // $grey-dark: $brown,
+  $grey: $mygrey,
+  $primary: $clay,
+
+  $info: $fsspgold,
+  $link: $clay,
+  // $link: $pink,
+  // $control-border-width: 2px
+);
+
+// Override Sass variables from the /form folder
+// @use "bulma/sass/form" with (
+//   $input-shadow: none
+// );
+
+// Import the components you need
+@forward "bulma/sass/base";
+@use "bulma/sass/components" with (
+  $card-radius: 10px,
+  
+);
+
+@forward "bulma/sass/elements" with (
+  $title-family: 'Joan, sans-serif'
+);
+
+@forward "bulma/sass/form";
+@forward "bulma/sass/grid";
+@forward "bulma/sass/helpers";
+@forward "bulma/sass/layout";
+// @forward "bulma/sass/themes";
+@use "bulma/sass/themes/light";
+@use "bulma/sass/themes/setup";
+
+:root {
+  @include light.light-theme;
+  @include setup.setup-theme;
+}
+
+// Import the Google Font
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// :root {
+//   @include light.light-theme;
+//   @include setup.setup-theme;
+// }
+
+
+.animateIn {
+  transition-property: all;
+  transition-duration: 500ms;
+	transition-timing-function: ease-in-out;
+  top: 0px;
+  right: 10px;
+  left: 0px;
+  opacity: 1;
+  position: relative;
+}
+
+.left-in {
+  opacity: 0  !important;  
+  top: 200px !important; 
+  left: -200px  !important;
+  
+}
+
+.right-in {
+  opacity: 0  !important;
+  top: 200px  !important;
+  left: 200px  !important;
+  
+}
+
+.invisible {
+  opacity: 0;
+}

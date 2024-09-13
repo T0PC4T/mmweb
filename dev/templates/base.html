@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- <html class="no-js" lang="en"> -->
+<html lang="en" data-theme="light">
+  <head>
+    {% include 'headlinks.html' %}
+    {% block head %}
+    {% endblock %}
+    <title>{% block title %}{% endblock %} | juventutem.org</title>
+    
+  </head>
+  <body>
+    {% include 'nav.html' %}
+    
+    <section class="section" style="min-height: 500px;">
+      <div class="columns">
+        <div
+          class="column is-offset-0-mobile is-12-mobile is-offset-2-desktop is-8-desktop {% block contentClasses %}{% endblock %}"
+          {% block contentFunction %}{% endblock %}
+        >
+          <h1 class="title">{% block contentTitle %}{% endblock %}</h1>
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+    </section>
+    {% include 'footer.html' %}
+  </body>
+</html>

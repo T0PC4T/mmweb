@@ -1,0 +1,127 @@
+{# nav.jinja #}
+<nav
+  class="navbar is-fixed-top"
+  role="navigation"
+  aria-label="main navigation"
+  style="z-index: 5"
+>
+  <div class="navbar-brand">
+    <a class="navbar-item" style="height: 70px" href="/">
+      <img
+        src="/images/logo.png"
+        width="50px"
+        height="60px"
+        style="max-height: unset"
+      />
+      <span class="title is-5 ml-2 has-text-primary">Juventutem</span>
+    </a>
+
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/about/"> About </a>
+        <div class="navbar-dropdown">
+          <!-- <hr class="navbar-divider" /> -->
+          <a class="navbar-item" href="/about/"> About Juventutem </a>
+          <a class="navbar-item" href="/commitments/"> The Commitments </a>
+          <a class="navbar-item" href="/approvals/"> The Approvals </a>
+        </div>
+      </div>
+
+      <a class="navbar-item" href="/chapters/"> Chapters </a>
+      <a class="navbar-item" href="/affiliate/"> Affiliate </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/books/"> Resources </a>
+        <div class="navbar-dropdown">
+          <!-- <hr class="navbar-divider" /> -->
+          <a
+            class="navbar-item"
+            href="https://assets.ctfassets.net/8e6y7fam3t8b/tKr4IVC8jJzqXvSlg5cRZ/a7c602e07b55d98a2985d7a69be40b20/2008-02-19-Charte-EN.-revised.pdf"
+          >
+            Charter
+          </a>
+          <a class="navbar-item" href="/books/"> Books </a>
+          <!-- TODO -->
+          <a class="navbar-item" href="/videos/"> Videos </a>
+          <a class="navbar-item" href="/wyd/"> WYD Reports </a>
+        </div>
+      </div>
+    </div>
+    <style>
+      #facebook:hover {
+        color: #476bfc !important;
+      }
+      #instagram:hover {
+        color: #9f1184 !important;
+      }
+      #twitter-x:hover {
+        color: #000000 !important;
+      }
+    </style>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div
+          class="is-flex is-flex-direction-row is-justify-content-flex-start"
+        >
+          <!--  -->
+          <a
+            title="Follow on X"
+            href="https://x.com/FIJuventutem?t=MFXkDYXfOWohaRfGes-seA&s=09"
+            class="m-1"
+          >
+            <i id="twitter-x" class="fa-brands fa-x-twitter has-text-primary title is-3"></i>
+          </a>
+          <!--  -->
+          <a
+            title="Follow on Instagram"
+            href="https://www.instagram.com/fijuventutem?igsh=MXM0cWRtenc2NzZn"
+            class="m-1"
+          >
+            <i id="instagram" class="fa-brands fa-instagram has-text-primary title is-3"></i>
+          </a>
+          <!--  -->
+
+          <a
+            title="Follow on Facebook"
+            href="https://www.facebook.com/fijuventutem"
+            class="m-1"
+          >
+            <i id="facebook" class="fa-brands fa-facebook has-text-primary title is-3"></i>
+          </a>
+          <!--  -->
+          <!-- <a
+            title="Follow on Youtube"
+            href="https://www.youtube.com/channel/UCAx7fXOY34ZzYuY_tTrhLnA"
+            class="m-2"
+          >
+            <i class="fa-brands fa-youtube has-text-primary title is-4"></i>
+          </a> -->
+        </div>
+      </div>
+      <div class="navbar-item">
+        <a class="button is-info" href="/contact/">
+          <strong>Contact</strong>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Social card -->
+<section
+  class="has-background-light is-fullwidth p-2"
+  style="height: 70px"
+></section>
