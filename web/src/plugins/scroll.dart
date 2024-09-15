@@ -36,7 +36,7 @@ class ScrollPlugin extends DartFunctionPlugin {
 
   // ! FUNCTIONS
 
-  // _addScrollX(start: -1 end: 1);
+  // _addScrollX(start: -100px end: 200px);
   // ? uses height as meter for 0 - 1;
   bool _addScrollX(HTMLElement element, HtmlFunction func) {
     final handle = ScrollHandleXAxis(
@@ -75,6 +75,11 @@ abstract class ScrollHandle {
     return element.getBoundingClientRect().bottom * -1;
   }
 
+  num getElementTopScreenTop() {
+    return element.getBoundingClientRect().top +
+        document.documentElement!.scrollTop;
+  }
+
   double inScreenT() {
     final rect = element.getBoundingClientRect();
     return (rect.top - window.innerHeight).abs() /
@@ -86,10 +91,10 @@ abstract class ScrollHandle {
     return (rect.top - window.innerHeight).abs();
   }
 
-  bool inView() {
+  bool inView([padding = 0]) {
     final rect = element.getBoundingClientRect();
-    return rect.top < (window.innerHeight + rect.height) &&
-        rect.top > -rect.height;
+    return rect.top < (window.innerHeight + rect.height) + padding &&
+        rect.top > -(rect.height + padding);
   }
 }
 
@@ -101,19 +106,13 @@ class ScrollHandleXAxis extends ScrollHandle {
     required this.start,
     required this.end,
   }) {
-    final el = element.getBoundingClientRect();
-    element.style.position = "absolute";
-    element.style.left = (start * el.width).toString();
-    element.style.top = (start * el.height).toString();
+    element.style.position = "relative";
   }
   @override
   bool run() {
-    if (inView()) {
-      final top = getDistanceElementTopToScreenBottom();
+    if (inView(50)) {
       final t = inScreenT();
-      print(t);
-      element.style.left =
-          "${lerpDouble(window.innerWidth * start, window.innerWidth * end, cubicInOut(t))}px";
+      element.style.left = "${lerpDouble(start, end, cubicInOut(t))}px";
     }
 
     return false;

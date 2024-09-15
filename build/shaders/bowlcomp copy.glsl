@@ -95,9 +95,9 @@ float sdCutHollowSphere( vec3 p, float r, float h, float t )
 float map( in vec3 pos )
 {
     // size
-    float r = 0.61;
+    float r = 0.78;
     // height -.5 => .5;
-    float h = -0.05;
+    float h = -0.1;
     // thickness
     float t = 0.01;
     return sdCutHollowSphere(pos, r, h, t );
@@ -117,31 +117,31 @@ vec3 calcNormal( in vec3 pos )
 
 
 void main() {
-    const vec3 clay = vec3(214, 135, 90) / 255.;
+    const vec3 clay = vec3(194, 125, 70) / 255.;
     const vec3 grey = vec3(27, 29, 28) / 255.;
     // vec2 uv = gl_FragCoord.xy/iResolution.xy;
     // set the camera a little back and up
-	vec3 ro = vec3( 0.0, 0.6, -1.0);
+	vec3 ro = vec3( 0.0, 0.02, -1.0);
     
     vec2 p = (2.0*gl_FragCoord.xy-iResolution.xy)/iResolution.y;
 
     // create view ray
-    vec3 rd = normalize(vec3(p.x, p.y - 1.2, 1.));
+    vec3 rd = normalize(vec3(p.x, p.y - 0.7, 1.));
 
     // raymarch
-    const float tmax = 2.;
+    const float tmax = 2.0;
     float t = 0.0;
     
     // number of steps
     vec3 pos;
     float noiseadd = 0.0;
-    for( int i=0; i<18; i++ )
+    for( int i=0; i<20; i++ )
     {
         // The start position
         pos = ro + t*rd;
         pos = rotate(pos, vec3(0.02,0.2,0.0), iTime);
         float d = map(pos);
-        noiseadd = noise((pos.xy - iTime * 0.2) * 3.5) * 0.005;
+        noiseadd = noise(pos.xy * 2.) * 0.005;
         d += noiseadd;
         if( d<0.001 || t>tmax ) break;
         t += d;
@@ -154,8 +154,8 @@ void main() {
     {
         vec3 nor = calcNormal(pos);
         vec3 lig = normalize(vec3(0., 3., 1.));
-        float dif = pow(clamp(dot(nor,lig), 0.1, 1.), 3.) + .05;
-        col = mix(vec4(grey,0.05), vec4(clay,1.0), dif - noiseadd * 20.);
+        float dif = clamp(pow(dot(nor,lig),3.), 0.1, .9 ) +.1;
+        col = mix(vec4(grey,0.), vec4(clay,1.), dif - noiseadd * 30.);
     }
 
 	gl_FragColor = col;

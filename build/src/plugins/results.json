@@ -1,0 +1,2231 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 6,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8e6y7fam3t8b"
+                    }
+                },
+                "id": "5a7mv6f8K07wIawZjf0BYk",
+                "type": "Entry",
+                "createdAt": "2024-07-31T15:10:23.553Z",
+                "updatedAt": "2024-07-31T15:10:23.553Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "events"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Un nouveau PrÃ©sident pour Juventutem: Bertalan Kiss, de Juventutem Hongrie",
+                "eventDate": "2016-02-29T00:00+01:00",
+                "content": {
+                    "nodeType": "document",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "FOR IMMEDIATE RELEASE\nOn 29 February 2016",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Dear Juventutem members and supporters,",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "We, the members of the Bureau of Juventutem, are delighted to announce the appointment of a new President for the International Juventutem Federation.",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "embedded-asset-block",
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6UYWPhhcugSO3zmzSKVZpk",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": []
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "The former President, George Steven (from the United Kingdom), rotated out of his position after a year and a half of generous service. Bertalan Kiss (28), of Hungary, applied for the position of President and was recommended for it by Simon Kocjan from Juventutem Slovenia and Aramis Perez from Juventutem Miami. Bertalan will be present as part of the worldwide Juventutem delegation to ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "hyperlink",
+                                    "data": {
+                                        "uri": "http://juventutem.org/wyd-2016-krakow-juventutem-registrations-now-open/"
+                                    },
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "JMJ Krakow",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ", this summer, together with Fr. de Malleray. ",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "embedded-asset-block",
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "3rxiZfxcvyxYjnUxvbo43Q",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": []
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Bertalan was introduced to the Traditional Latin Mass in 2009 through the work of the ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "hyperlink",
+                                    "data": {
+                                        "uri": "http://capitulumlaicorum.blogspot.com/"
+                                    },
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Capitulum Laicorum Sancti Michaelis Archangeli",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ". In 2012 he was a co-founder of the ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "hyperlink",
+                                    "data": {
+                                        "uri": "http://www.peregrinatio.hu/"
+                                    },
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Peregrinatio Fidei",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ", an annual pilgrimage and Pontifical Mass for the faithful attached to the Extraordinary Form of the Roman Rite in Hungary. In 2014, after meeting with Father, George, Paul, and other Juventutem leaders in Rome, he became a re-founding member and the Group Coordinator of Juventutem MagyarorszÃ¡g (",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "hyperlink",
+                                    "data": {
+                                        "uri": "https://www.facebook.com/juventutemhun"
+                                    },
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Facebook",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ", ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "hyperlink",
+                                    "data": {
+                                        "uri": "http://www.juventutem.hu/"
+                                    },
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "Website",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ")",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "embedded-asset-block",
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6NrzzJCqoCtG5DtvPAgwf5",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": []
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "On behalf of all, we would like to thank George for his dedicated service. All our prayers and hearty thanks go to him.",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "We would also like to thank Bertalan for accepting the position of President. He has actively led international Latin Mass pilgrimages and has also promoted Juventutem in his country. We look forward to what he will bring to Juventutem internationally, and we invite you to pray for him as he takes up his duties.",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "In the meantime, we ask that every group leader (and every correspondent wishing so) email Bertalan and Paul so as to update our contact records:\nBertalan: president at juventutem dot org\nPaul: secretary at juventutem dot org",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Let us pray for each other,\nIn Christ,\nPaul Schultz - ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Secretary of the FÅderatio Internationalis Juventutem\n",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Cosimo Marti -",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": " Treasurer of the FÅderatio Internationalis Juventutem\n",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Fr Armand de Malleray, FSSP â ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Ecclesiastical Assistant to the FÅderatio Internationalis Juventutem",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "data": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8e6y7fam3t8b"
+                    }
+                },
+                "id": "3zV9uIUJsPK03EIQiOH7NC",
+                "type": "Entry",
+                "createdAt": "2024-07-31T15:05:48.164Z",
+                "updatedAt": "2024-07-31T15:05:48.164Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "events"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "WYD 2016 KRAKOW JUVENTUTEM Registrations now OPEN!",
+                "eventDate": "2016-02-13T00:00+01:00",
+                "content": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "World Youth Day, to be held from July 25",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "superscript"
+                                        }
+                                    ],
+                                    "value": "th",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " to August 1",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "superscript"
+                                        }
+                                    ],
+                                    "value": "st",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " in Krakow, Poland, is right around the corner. Those who wish to attend Mass in the Extraordinary Form of the Roman Rite can do under the patronage of the Federatio Internationalis Juventutem (FIJ) group, organized by Krakowâs youth. During the meetings the daily Mass celebrant will be His Excellency Bishop Athanasius Schneider of Kazakhstan. The Bishop will also lead catechesis sessions. All of the events for our group will take place in the very heart of Krakow at Saints Peter and Paul Church on Grodzka Street ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://en.wikipedia.org/wiki/Saints_Peter_and_Paul_Church,_Krak%C3%B3w"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://en.wik",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://en.wikipedia.org/wiki/Saints_Peter_and_Paul_Church,_Krak%C3%B3w"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "ipedia.org/wiki/Saints_Peter_and_Paul_Church,_Krak%C3",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://en.wikipedia.org/wiki/Saints_Peter_and_Paul_Church,_Krak%C3%B3w"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "%B3w",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " . ",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6HIhBYd9jGDidG7W5pgqgc",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-asset-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "We wish to encourage youth from traditional communities in Poland and across the world to attend this event. Organization and group registrations can be made only through WYD 2016âs registration page. We urge those registering to familiarize themselves with all information either on the registration page or in the FAQ:",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://www.krakow2016.com/en/informacje-en"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "http://www.krakow2016.com/en/informacje-en",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "The Juventutem movement is already registered as a macrogroup, however, direct registration for pilgrims is carried out in subgroups counting up to 150 people. Every chaplain or lay leader registers his own members, in accordance with his needs, as a sub-group. If you plan on coming to Krakow for WYD or would like to help the youth in your ministry or group, we request that you inform us of your subgroup at ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "mailto:tradiWYD2016@gmail.com"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "tradiWYD2016@gmail.com",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ". We will then create a subgroup in the WYD system, for which you will have a login and password, and which you will be able to use according to your needs. The registration page directs all those interested through all the steps, including payment.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "4nfKYNUZB4OqzI1YqY062f",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-asset-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "As usual, Extraordinary Form clergy will accompany the young adults and will hear confessions, give lectures and take part in the liturgy. They include priests and seminarians from various countries, with Fr Armand de Malleray, Ecclesiastical Assistant to the FIJ.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Sincerely,",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Fr. Wojciech Grygiel & Artur Klasa",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Organizational Committee for FIJ WYD 2016 in Krakow",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8e6y7fam3t8b"
+                    }
+                },
+                "id": "46MuO6VCtA4FXh77SZN1wA",
+                "type": "Entry",
+                "createdAt": "2024-07-31T15:02:15.593Z",
+                "updatedAt": "2024-07-31T15:03:17.668Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 2,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "events"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Co-founder of Juventutem invited by Benedict XVI",
+                "eventDate": "2014-10-14T00:00+01:00",
+                "content": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "On Monday 1",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "superscript"
+                                        }
+                                    ],
+                                    "value": "st",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " September 2014, Pope Emeritus Benedict XVI granted Cosimo Marti, co-founder and treasurer of the ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Foederatio Internationalis Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " (FIJ) a private audience at his residence in the Vatican.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "One year earlier, before the resignation of Benedict XVI, Cosimo had requested to meet him on behalf of Juventutem. Last July, he received a surprise letter from the Apostolic Nunciature in Bern, the Swiss feral capital where the ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " headquarters are located.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "The Nunciature sent a letter from Archbishop Georg GÃ¤nswein, Prefect of the Pontifical House. It contained an invitation, no longer expected, to a meeting with Benedict XVI. Marti had assumed that his request had been filed with the resignation and was not expecting an answer any longer.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "The letter stated that he could bring a friend. After discussing it with Juventutem staff, Marti chose Giuseppe Capoccia, Director of ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Summorum Pontificum Coetus Internationalis",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ", who has organized the International Pilgrimage of Tradition in Rome since 2012 ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Summorum Pontificum Populus.",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " The pilgrimage will take place in October 2014 for the third time at the tomb of the Prince of the Apostles. The pilgrimage is being held out of gratitude for the 2007",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": " Motu Proprio Summorum Pontificum granted by ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Pope Benedict XVI, to free all priests in the celebration of the traditional form of the Roman rite. During the audience, which lasted for half an hour, Cosimo thanked Pope Benedict for his support to the young people attached to the Roman traditions of the Church. Pope Benedict assured Cosimo of his prayers for all the young people.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "In his ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://www.vatican.va/holy_father/benedict_xvi/letters/2007/documents/hf_ben-xvi_let_20070707_lettera-vescovi_en.html"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Letter",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " accompanying his Motu Proprio Summorum Pontificum in 2007, Pope Benedict referred his decision to promulgate improved guidelines for the Usus Antiquior to the growing interest of young people for the Roman traditions of the Church: âImmediately after the Second Vatican Council it was presumed that requests for the use of the 1962 Missal would be limited to the older generation which had grown up with it, but in the meantime it has clearly been demonstrated that young persons too have discovered this liturgical form, felt its attraction and found in it a form of encounter with the Mystery of the Most Holy Eucharist, particularly suited to them. Thus the need has arisen for a clearer juridical regulation which had not been foreseen at the time of the 1988 Motu Proprio.â",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Indeed, one thousand young adults attended WYD 2005 in Germany under Juventutem banner, out of one million in total present at the Papal Mass at Marienfeld. This gives a significant ratio of one young adult out of one thousand committed to those traditions, not to mention the many others who attended unregistered or simply had not yet heard about it.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "76fIDeavV1FGvLAwjzlqwY",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-asset-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "1l5zaBC3D4f4Adj9x5XkPZ",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-asset-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "anCmySX7Ur47AHQUu0Xq7",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-asset-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8e6y7fam3t8b"
+                    }
+                },
+                "id": "5id8bzTJdAzd0eszJXBpxh",
+                "type": "Entry",
+                "createdAt": "2024-07-31T14:51:46.754Z",
+                "updatedAt": "2024-07-31T14:51:46.754Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "events"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "10th Anniversary of Juventutem in Rome with Cardinal Pell",
+                "eventDate": "2014-10-14T00:00+01:00",
+                "content": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "The International Juventutem Federation is pleased to announce that His Eminence George Cardinal Pell, Prefect of the Secretariat for Economy, has kindly accepted our invitation to be the Celebrant at a Pontifical Solemn High Mass according to the Missal of St John XXIII on Friday 24 October 2014, 6:30pm, at Santissima TrinitÃ  dei Pellegrini, Parish Church of the Priestly Fraternity of St Peter in Rome, Italy.",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " The Holy Sacrifice will be offered in thanksgiving for the tenth anniversary of ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ", the worldwide youth movement fostering the sanctification of the young through the Roman traditions of Holy Mother Church. We are grateful to His Eminence who generously presided at Solemn Pontifical Vespers organised by Juventutem during World Youth Days in the past, first in DÃ¼sseldorf on 17 August 2005, and again in Sydney on 16 July 2008.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "After Vespers in DÃ¼sseldorf, Cardinal Pell gave the following encouragements to the young WYD pilgrims of ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ": ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "âI am happy to be here because the old Latin rite is one of the most beautiful things in the entire Western civilization. And I am very glad that this ancient rite has its place in the Church today. I am happy because this rite helps you to love God and to love one another. In this ancient rite we always see that our prayer is an act of worship. It is impossible to see a celebration like these Vespers as something horizontal. We have one Church only, whose Head is the Successor of Peter, with the Bishops as successors of the Apostles, and this unity is very important for the life of the Church",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "â (translated from the original French).",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Members and supporters of ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " are cordially invited to make arrangements to be in Rome and attend the Mass, which will be preceded by other Juventutem activities (full schedule to be advertised soon). ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "All pilgrims in Rome are naturally invited as well, regardless of their involvement with Juventutem. The event will be part of the Populus Summorum Pontificum Pilgrimage 2014.",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " The following day, on Saturday 25 October, His Eminence Raymond Leo Cardinal Burke, Prefect of the Supreme Tribunal of the Apostolic Signatura, will celebrate a Solemn Pontifical High Mass according to the Extraordinary Form of the Roman Rite in Saint Peterâs Basilica, at 12:00 noon.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Signed: International Juventutem Federation, on 27 May 2014.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "ItRePVNupVmCNB1LSiAkE",
+                                        "type": "Link",
+                                        "linkType": "Asset"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-asset-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "In Rome, 23-25 October, a pastor has agreed to make his parish gymnasium available to backpacking Juventutem members, at near-gratis rates.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Fr. Armand de Malleray, FSSP, the ecclesiastical assistant of the FIJ, will be present in Rome and will provide spiritual conferences for those young adults who gather for this General Assembly of Juventutem. To the extent that we are joined by young adults from Poland, ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "we hope to begin serious discussions of the Juventutem presence at WYD Krakow",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ".",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Young adults who intend coming to Rome, are invited to fill in ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://docs.google.com/forms/d/1YaLcEf-FN8Bf2zdJYoio2mMFEIc-vVfYpIPDq1fSQt4/viewform"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "this questionnaire",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ".",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "Schedule",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " for Pilgrimage to Rome: ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://ucpnrome2013.files.wordpress.com/2013/06/flyerimg.jpeg"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "http://ucpnrome2013.files.wordpress.com/2013/06/flyerimg.jpeg",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8e6y7fam3t8b"
+                    }
+                },
+                "id": "3VlqlYP3aBOYlMiSu4bszv",
+                "type": "Entry",
+                "createdAt": "2024-07-31T14:46:46.823Z",
+                "updatedAt": "2024-07-31T14:48:23.637Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 2,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "events"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "20th anniversary on 24.V.24!",
+                "eventDate": "2024-04-27T00:00+01:00",
+                "content": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "A youth movement already twenty years old!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "It was on the feast of Our Lady Help of Christians, 24 May 2004, that the name \"Juventutem\" was first mentioned in the correspondence of the founders. Twenty years later, the lay founding members of our international youth movement are either married (the oldest ones may soon become grandparents!) or in religious or consecrated life. Meanwhile, younger ones continue to animate our groups in America and the UK.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "We invite all former and current members and supporters to attend or unite in spirit with the",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "SOLEMN HIGH MASS ",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "of THANKSGIVING",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "which the international chaplain of Juventutem Fr Armand de Malleray, FSSP will offer",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "on Friday 24th May 2024, 7:00pm",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "(Confessions from 6pm)",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "at the Oratory of St Mary Magdalene, 96 North Side Wandsworth Common SW18 2QU London, UK,",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "assisted by Fr Henry Whisenant as Deacon and Fr Neil Brett as Subdeacon.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Refreshments will follow.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "See Facebook page for this event here: ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.facebook.com/events/377258975295750/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://www.facebook.com/events/377258975295750/",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "From the UK or from abroad, you are heartily welcome in Yorkshire (UK) to our",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": " Summer Weekend on 2-4 August at Ampleforth Abbey for 18-35s",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ": Exciting news!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "value": "Juventutem",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " is now taking bookings. Following last yearâs amazing weekend at Ampleforth, weâre very pleased to announce that we will be going back for again this year. Book before the Ascension to secure a great discount: ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "Â£125",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " including all accommodation, food, and a space on the coach to / from York Station if required.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "With: Fr Armand de Malleray, FSSP, Fr Thomas Crean OP, and more clerical and lay speakers, for traditional liturgies, doctrinal and spiritual talks, - and summer fun! Price after the Ascension ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "Â£165",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ".",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Simply complete the form at ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://bit.ly/juventutem2024"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "bit.ly/juventutem2024",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "or email ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "mailto:juventutemldn@gmail.com"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ],
+                                            "value": "juventutemldn@gmail.com",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": " if you have any queries!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8e6y7fam3t8b"
+                    }
+                },
+                "id": "9pDdzAb6aYG6wLttDh8bQ",
+                "type": "Entry",
+                "createdAt": "2024-07-30T18:17:48.627Z",
+                "updatedAt": "2024-07-31T14:47:51.705Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 2,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "events"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Commemorative article on 24.V.24",
+                "eventDate": "2024-05-24T00:00+01:00",
+                "coverImage": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Asset",
+                        "id": "1QfTWqcJA2f2I6eHYuBAz2"
+                    }
+                },
+                "content": {
+                    "nodeType": "document",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Read our commemorative article in ",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "Crisis Magazine",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": ":",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "",
+                                    "marks": [],
+                                    "data": {}
+                                },
+                                {
+                                    "nodeType": "hyperlink",
+                                    "data": {
+                                        "uri": "https://crisismagazine.com/opinion/traditional-youth-movement-juventutem-turns-twenty"
+                                    },
+                                    "content": [
+                                        {
+                                            "nodeType": "text",
+                                            "value": "https://crisismagazine.com/opinion/traditional-youth-movement-juventutem-turns-twenty",
+                                            "marks": [],
+                                            "data": {}
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeType": "text",
+                                    "value": "",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "includes": {
+        "Asset": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "1QfTWqcJA2f2I6eHYuBAz2",
+                    "type": "Asset",
+                    "createdAt": "2024-07-30T18:17:18.598Z",
+                    "updatedAt": "2024-07-30T18:17:18.598Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Logo Large",
+                    "description": "FÅderatio Internationalis Juventutem",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/1QfTWqcJA2f2I6eHYuBAz2/e241774d486af0f41bb7f1ca484ba23f/logo.png",
+                        "details": {
+                            "size": 138482,
+                            "image": {
+                                "width": 200,
+                                "height": 200
+                            }
+                        },
+                        "fileName": "logo.png",
+                        "contentType": "image/png"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "1l5zaBC3D4f4Adj9x5XkPZ",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:01:21.137Z",
+                    "updatedAt": "2024-07-31T15:01:21.137Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Benedict XVI-2",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/1l5zaBC3D4f4Adj9x5XkPZ/085c6f25ccd7301e383e4b638643f316/image003.png",
+                        "details": {
+                            "size": 233132,
+                            "image": {
+                                "width": 335,
+                                "height": 486
+                            }
+                        },
+                        "fileName": "image003.png",
+                        "contentType": "image/png"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "3rxiZfxcvyxYjnUxvbo43Q",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:07:42.617Z",
+                    "updatedAt": "2024-07-31T15:07:42.617Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "BertalanInStPete15-219x300",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/3rxiZfxcvyxYjnUxvbo43Q/619464e95c93bff4495860394f9a4d92/BertalanInStPete15-219x300.jpg",
+                        "details": {
+                            "size": 29090,
+                            "image": {
+                                "width": 219,
+                                "height": 300
+                            }
+                        },
+                        "fileName": "BertalanInStPete15-219x300.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "4nfKYNUZB4OqzI1YqY062f",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:05:14.382Z",
+                    "updatedAt": "2024-07-31T15:05:14.382Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "2015-05-29-fitz-d1",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/4nfKYNUZB4OqzI1YqY062f/3923d64cd76d622c87dcaba6d849522d/2015-05-29-fitz-d1.jpg",
+                        "details": {
+                            "size": 31533,
+                            "image": {
+                                "width": 400,
+                                "height": 267
+                            }
+                        },
+                        "fileName": "2015-05-29-fitz-d1.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "6HIhBYd9jGDidG7W5pgqgc",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:04:19.661Z",
+                    "updatedAt": "2024-07-31T15:04:19.661Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Juventutem-Krakow-WYD-2016-Base-Sts-Peter-Paul-Church",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/6HIhBYd9jGDidG7W5pgqgc/03f558e7028171e330ab485b89fbc6d5/Juventutem-Krakow-WYD-2016-Base-Sts-Peter-Paul-Church.jpg",
+                        "details": {
+                            "size": 2717439,
+                            "image": {
+                                "width": 4000,
+                                "height": 3000
+                            }
+                        },
+                        "fileName": "Juventutem-Krakow-WYD-2016-Base-Sts-Peter-Paul-Church.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "6NrzzJCqoCtG5DtvPAgwf5",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:08:44.647Z",
+                    "updatedAt": "2024-07-31T15:08:44.647Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "RomeMeetup2014-300x225",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/6NrzzJCqoCtG5DtvPAgwf5/7c0dfd04f5b241ecb9915fbb0ae7c450/RomeMeetup2014-300x225.jpg",
+                        "details": {
+                            "size": 24400,
+                            "image": {
+                                "width": 300,
+                                "height": 225
+                            }
+                        },
+                        "fileName": "RomeMeetup2014-300x225.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "6UYWPhhcugSO3zmzSKVZpk",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:07:10.805Z",
+                    "updatedAt": "2024-07-31T15:07:10.805Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "JuventutemHungary2-300x224",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/6UYWPhhcugSO3zmzSKVZpk/06f8a71895e273afdbc05ec05995c746/JuventutemHungary2-300x224.jpg",
+                        "details": {
+                            "size": 22719,
+                            "image": {
+                                "width": 300,
+                                "height": 224
+                            }
+                        },
+                        "fileName": "JuventutemHungary2-300x224.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "76fIDeavV1FGvLAwjzlqwY",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:01:54.635Z",
+                    "updatedAt": "2024-07-31T15:01:54.635Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Benedict XVI-3",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/76fIDeavV1FGvLAwjzlqwY/d9cfc1abe711033bad7f9b829e98bb61/image002.jpg",
+                        "details": {
+                            "size": 30292,
+                            "image": {
+                                "width": 300,
+                                "height": 215
+                            }
+                        },
+                        "fileName": "image002.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "ItRePVNupVmCNB1LSiAkE",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T14:50:38.196Z",
+                    "updatedAt": "2024-07-31T14:51:42.884Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 2,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Juventutem10thCardinalPell",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/ItRePVNupVmCNB1LSiAkE/dad32826b874091cefe1ad0af7678581/unnamed.jpg",
+                        "details": {
+                            "size": 96242,
+                            "image": {
+                                "width": 535,
+                                "height": 703
+                            }
+                        },
+                        "fileName": "unnamed.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8e6y7fam3t8b"
+                        }
+                    },
+                    "id": "anCmySX7Ur47AHQUu0Xq7",
+                    "type": "Asset",
+                    "createdAt": "2024-07-31T15:00:16.618Z",
+                    "updatedAt": "2024-07-31T15:00:16.618Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "PopeBenedict",
+                    "description": "",
+                    "file": {
+                        "url": "//images.ctfassets.net/8e6y7fam3t8b/anCmySX7Ur47AHQUu0Xq7/ab822a98bdc76b4940fbced9965c91ce/image001.jpg",
+                        "details": {
+                            "size": 22012,
+                            "image": {
+                                "width": 234,
+                                "height": 298
+                            }
+                        },
+                        "fileName": "image001.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            }
+        ]
+    }
+}

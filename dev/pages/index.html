@@ -2,7 +2,7 @@
 <div class="columns pt-5; pb-5" style="min-height: 500px">
   {% if direction == 'right' %}
   <div class="column is-6-tablet">
-    <figure class="image {{ratio}}">
+    <figure class="image {{ratio}}" data-function="addScrollX(-150, 80)">
       <img src="{{image}}" />
     </figure>
   </div>
@@ -17,7 +17,7 @@
   </div>
   {% if direction == 'left' %}
   <div class="column is-6-tablet">
-    <figure class="image {{ratio}}">
+    <figure class="image {{ratio}}" data-function="addScrollX(150, 80)">
       <img src="{{image}}" />
     </figure>
   </div>
@@ -75,6 +75,7 @@
     </div>
     </section>
     <section class="section mb-0 pb-0">
+      </div>      
       {{ flowSection(
       '<p class="has-text-white p-5" style="font-size: xx-large">
         Our knowledge mirrors a
@@ -93,7 +94,7 @@
         "images/sidebowl.png",
         ratio="is-5by3") }}
     </section>
-    <div class="has-background-primary" style="width:100%;height: 110px;background-image: url('images/boundary.png');background-size: cover; background-repeat: no-repeat;" ></div>
+    <div class="has-background-primary" style="width:100%;height: 120px;background-image: url('images/boundary.png');background-size: contain; background-repeat: repeat-x;" ></div>
     <section class="section has-background-primary">
       {{ flowSection(
         "<p class='has-text-grey p-5' style='font-size: xx-large; text-align: left;'>
@@ -102,10 +103,12 @@
         "left",
         "images/aristotle.png",
         ratio="is-square") }}
-      
+      </section>
+      <div class="has-background-primary" style="width:100%;height: 120px;background-image: url('images/boundary2.png');background-size: contain; background-repeat: repeat-x;" ></div>
+      <section class="section has-background-grey">
       <div class="is-flex is-justify-content-center is-align-items-center is-flex-direction-column mt-5 mb-5" style="min-height: 500px;">
-        <h2 class="title is-1" style="text-align: center;">Find out how far your ideas have arrived!</h2>
-        <button class="button is-black is-large m-3" style="width: 250px;">TRY THE BOWL</button>
+        <h2 class="title is-1 has-text-primary" style="text-align: center;">Find out how far your ideas have arrived!</h2>
+        <button class="button is-primary has-text-white is-large m-3" style="width: 250px;">TRY THE BOWL</button>
       </div>
     </section>
     {% include 'footer.html' %}
