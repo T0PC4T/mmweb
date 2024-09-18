@@ -1,0 +1,48 @@
+{% macro flowSection(body, direction, image, ratio='is-square') %}
+<div class="columns pt-5; pb-5" style="min-height: 500px">
+  {% if direction == 'right' %}
+  <div class="column is-6-tablet">
+    <figure class="image {{ratio}}" data-function="addScrollX(-150, 80)">
+      <img src="{{image}}" />
+    </figure>
+  </div>
+  {% endif %}
+  <div class="column is-6-tablet">
+    <div
+      class="animateIn {{direction}}-in"
+      data-function="addClassOnScroll(50, !{{direction}}-in)"
+    >
+      {{ body }}
+    </div>
+  </div>
+  {% if direction == 'left' %}
+  <div class="column is-6-tablet">
+    <figure class="image {{ratio}}" data-function="addScrollX(150, 80)">
+      <img src="{{image}}" />
+    </figure>
+  </div>
+  {% endif %}
+</div>
+{% endmacro %}
+
+<!DOCTYPE html>
+<!-- <html class="no-js" lang="en"> -->
+<html lang="en" data-theme="dark">
+  <head>
+    {% include 'headlinks.html' %}
+    <title>DYSTLA | dystla.com</title>
+    <meta
+      name="description"
+      content="TODO write the things write the things write the things write the things write the things write the things write the things."
+    />
+  </head>
+  <body class="has-background-grey" style="overflow: hidden">
+    <section class="section">
+        <div class="is-flex is-align-items-center is-justify-content-center">
+            Loading...
+        </div>
+        
+    </section>
+    {% include 'footer.html' %}
+  </body>
+</html>

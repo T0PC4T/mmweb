@@ -30,75 +30,83 @@
     />
   </head>
   <body class="has-background-grey" style="overflow: hidden;">
-    <section
-      style="position: relative; 
-              height: 100vh;
-              width: 100%;
-              min-height: 400px;
-              max-height: 1000px;"
-      class="is-flex is-align-items-start is-flex-direction-row is-justify-content-center"
-    >
- 
-      <div
-        data-function="addClassDelay(400, !invisible)"
-        class="animateIn title has-text-white is-flex is-align-items-center is-justify-content-center invisible"
-        style="height: 100%; width: 20%; font-size: 12vw"
-      >
-        D
-      </div>
-      <div
-        data-function="addClassDelay(700, !invisible)"
-        class="animateIn title has-text-white is-flex is-align-items-center is-justify-content-center invisible"
-        style="height: 100%; width: 20%; font-size: 12vw"
-      >
-        Y
-      </div>
-      <div
-        data-function="addClassDelay(1000, !invisible)"
-        class="animateIn title has-text-white is-flex is-align-items-center is-justify-content-center invisible"
-        style="height: 100%; width: 20%; font-size: 12vw"
-      >
-        S
-      </div>
-      <div
-        data-function="addClassDelay(1300, !invisible)"
-        class="animateIn title has-text-white is-flex is-align-items-center is-justify-content-center invisible"
-        style="height: 100%; width: 20%; font-size: 12vw"
-      >
-        T
-      </div>
-      <div
-        data-function="addClassDelay(1600, !invisible)"
-        class="animateIn title has-text-white is-flex is-align-items-center is-justify-content-center invisible"
-        style="height: 100%; width: 20%; font-size: 12vw"
-      >
-        L
-      </div>
-      <div
-        data-function="addClassDelay(1900, !invisible)"
-        class="animateIn title has-text-white is-flex is-align-items-center is-justify-content-center invisible"
-        style="height: 100%; width: 20%; font-size: 12vw"
-      >
-        A
-      </div>
+    <section class="is-flex is-align-items-center is-flex-direction-column is-justify-content-start" 
+             style="height: 100vh;
+                   width: 100%;
+                   min-height: 400px;
+                   max-height: 1000px;">
+
+      <!-- SHADER -->
 
       <div
-      style="
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      "
-    >
-      <div
-        style="width: min(48vw, 800px); height: min(36vw, 600px)"
-        data-function="addShaderOnScroll(shaders/bowlcomp.glsl, 5)"
-      ></div>
-    </div>
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      ><div
+          style="width: min(48vw, 800px); height: min(36vw, 600px)"
+          data-function="addShaderOnScroll(shaders/bowlcomp.glsl, 5)"
+        ></div>
+      </div>
+
+      <!-- END SHADER -->
+
+      <div style="position: relative; 
+                  height: 60%;
+                  width: 100%;"
+        class="is-flex is-align-items-end is-flex-direction-row is-justify-content-center"
+      >
+ 
+        <div
+          data-function="addClassDelay(400, !invisible)"
+          class="animateIn title has-text-white is-flex is-flex-direction-column is-align-items-center is-justify-content-end invisible"
+          style="height: 60%; width: 20vw; font-size: 12vw"
+        >
+          D
+        </div>
+        <div
+          data-function="addClassDelay(700, !invisible)"
+          class="animateIn title has-text-white is-flex is-flex-direction-column is-align-items-center is-justify-content-end invisible"
+          style="height: 60%; width: 20vw; font-size: 12vw"
+        >
+          Y
+        </div>
+        <div
+          data-function="addClassDelay(1000, !invisible)"
+          class="animateIn title has-text-white is-flex is-flex-direction-column is-align-items-center is-justify-content-end invisible"
+          style="height: 60%; width: 20vw; font-size: 12vw"
+        >
+          S
+        </div>
+        <div
+          data-function="addClassDelay(1300, !invisible)"
+          class="animateIn title has-text-white is-flex is-flex-direction-column is-align-items-center is-justify-content-end invisible"
+          style="height: 60%; width: 20vw; font-size: 12vw"
+        >
+          T
+        </div>
+        <div
+          data-function="addClassDelay(1600, !invisible)"
+          class="animateIn title has-text-white is-flex is-flex-direction-column is-align-items-center is-justify-content-end invisible"
+          style="height: 60%; width: 20vw; font-size: 12vw"
+        >
+          L
+        </div>
+        <div
+          data-function="addClassDelay(1900, !invisible)"
+          class="animateIn title has-text-white is-flex is-flex-direction-column is-align-items-center is-justify-content-end invisible"
+          style="height: 60%; width: 20vw; font-size: 12vw"
+        >
+          A
+        </div>
+      </div>
+      <p class="title is-2  animateIn invisible has-text-white" data-function="addClassDelay(2200, !invisible)">A methodology of philosphical thought</p>
     </section>
     <section class="section mb-0 pb-0">
       </div>      
@@ -108,9 +116,8 @@
       class="animateIn left-in"
       data-function="addClassOnScroll(50, !left-in)"
     >
-      <p class="has-text-white p-5" style="font-size: xx-large">
-        Our knowledge mirrors a
-        <span class="has-text-primary">bowl</span>.<br>
+      <p class="has-text-white p-5 custom-big-font">
+        Our <span class="has-text-primary">knowledge</span> mirrors a bowl.<br>
         We begin with a clean slate on the rim.
       </p>
     </div>
@@ -134,7 +141,7 @@
       class="animateIn right-in"
       data-function="addClassOnScroll(50, !right-in)"
     >
-      <p class="has-text-white p-5" style="font-size: xx-large; text-align: right;">
+      <p class="has-text-white p-5 custom-big-font" style="text-align: right;">
           As we grow and learn, we roll down, nearing the <span class="has-text-primary">center</span> where the truth lies.
         </p>
     </div>
@@ -142,7 +149,7 @@
 </div>
 
     </section>
-    <div class="has-background-primary" style="width:100%;height: 120px;background-image: url('images/boundary.png');background-size: contain; background-repeat: repeat-x;" ></div>
+    <div class="has-background-primary" style="width:100%;height:120px;background-image: url('images/boundary.svg');background-size: contain; background-repeat: repeat-x;" ></div>
     <section class="section has-background-primary">
       <div class="columns pt-5; pb-5" style="min-height: 500px">
   <div class="column is-6-tablet">
@@ -150,7 +157,7 @@
       class="animateIn left-in"
       data-function="addClassOnScroll(50, !left-in)"
     >
-      <p class='has-text-grey p-5' style='font-size: xx-large; text-align: left;'>
+      <p class='has-text-grey p-5 custom-big-font' style='text-align: left;'>
           Aristotle's logic proposed a methodology of progressing towards the truth by verifying arguments.
         </p>
     </div>
@@ -162,12 +169,13 @@
   </div>
 </div>
 
-      </section>
-      <div class="has-background-primary" style="width:100%;height: 120px;background-image: url('images/boundary2.png');background-size: contain; background-repeat: repeat-x;" ></div>
-      <section class="section has-background-grey">
-      <div class="is-flex is-justify-content-center is-align-items-center is-flex-direction-column mt-5 mb-5" style="min-height: 500px;">
-        <h2 class="title is-1 has-text-primary" style="text-align: center;">Find out how far your ideas have arrived!</h2>
-        <button class="button is-primary has-text-white is-large m-3" style="width: 250px;">TRY THE BOWL</button>
+    </section>
+      
+    <section class="section has-background-grey" style="position: relative;">
+      <div class="has-background-grey" style="width:100%;height:140px;position:absolute;top:-140px;left: 0px;" ></div>
+      <div class="is-flex is-justify-content-center is-align-items-center is-flex-direction-column mb-5" style="min-height: 500px;">
+        <h2 class="title is-1 has-text-primary" style="text-align: center;">How far are your ideas from the truth!</h2>
+        <button class="button is-primary has-text-white is-large m-3" style="width: 250px;" onclick="window.location='/bowl'">TRY THE BOWL</button>
       </div>
     </section>
 <footer class="footer has-background-black">

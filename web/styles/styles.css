@@ -15900,11 +15900,11 @@ has-background-danger.is-hoverable:active {
 }
 
 .has-text-grey {
-  color: rgb(27, 29, 28) !important;
+  color: #1b1d1c !important;
 }
 
 .has-background-grey {
-  background-color: rgb(27, 29, 28) !important;
+  background-color: #1b1d1c !important;
 }
 
 .has-text-grey-light {
@@ -19501,7 +19501,7 @@ has-background-danger.is-hoverable:active {
   --bulma-black-ter: hsl(221, 14%, 14%);
   --bulma-grey-darker: hsl(221, 14%, 21%);
   --bulma-grey-dark: hsl(221, 14%, 29%);
-  --bulma-grey: rgb(27, 29, 28);
+  --bulma-grey: #1b1d1c;
   --bulma-grey-light: hsl(221, 14%, 71%);
   --bulma-grey-lighter: hsl(221, 14%, 86%);
   --bulma-white-ter: hsl(221, 14%, 96%);
@@ -19572,6 +19572,10 @@ has-background-danger.is-hoverable:active {
   opacity: 0 !important;
   top: 200px !important;
   left: 200px !important;
+}
+
+.custom-big-font {
+  font-size: calc(15px + 2vw);
 }
 
 .invisible {

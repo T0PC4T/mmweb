@@ -2,7 +2,7 @@
 $clay: #c27d46;
 $fsspgold: #eab411;
 $fsspyellow: #f6e222;
-$mygrey: rgb(27, 29, 28);
+$mygrey: #1b1d1c;
 
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with (
@@ -79,6 +79,10 @@ $mygrey: rgb(27, 29, 28);
   top: 200px  !important;
   left: 200px  !important;
   
+}
+
+.custom-big-font {
+  font-size: calc(15px + 2vw);
 }
 
 .invisible {
